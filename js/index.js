@@ -11,7 +11,6 @@ const carro = {
             alert('Vruuuuuuuummmm');}, 3000);
     }
 };
-
 //dados a serem exibidos no identificador "texto" do index.html.
 document.getElementById('texto').innerHTML='Este é meu novo carro. É um '+carro.marca+
 ' '+carro.modelo+' '+carro.ano+'!';

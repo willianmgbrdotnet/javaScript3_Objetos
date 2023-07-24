@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <!--MetaTags-->
+    <!--Configura para que a pagina exiba acentuações e caracteres especiais-->
     <meta charset="UTF-8">
+    <!--Compatibilidade com o Internet Explorer-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--Configuração para a página se adaptar ao tamanho da tela do dispositivo-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Descrição no Rodapé da página-->
+    <meta name="description" content="Início de meu aprendizado web">
+    <!--Palavras chave usadas antigamente para o site ser rastreado nos buscadores-->
+    <meta name="keywords" content="programação,html,javascript,estágio,estagiário">
+    <!--Criador do site. Se destaca nas buscas caso for bem rankeado pelo algoritmo-->
+    <meta name="author" content="Willian dotNet Alves"
     <title>Aprendendo JavaScript</title>
+    <!--CSS dentro do Html para estilizar elementos da página-->
     <style>
         body {
             /*centraliza todo o conteúdo do body*/
@@ -13,16 +24,16 @@
     </style>
 </head>
 
-<body>
+<body onload="alert('Página carregada!')">
     <h1>Aprendendo JavaScript</h1>
     <!-- O conteúdo do "texto" será definido no "index.js"-->
     <p id="texto"></p>
     <!--Chamando um método do objeto-->
     <button onclick="carro.roncoMotor()">Ligue o possante!</button>
-    
+
+    <!--Recursos do site que serão carregados juntamente com a página-->
     <img src="mustang74tuned.jpg">
     <audio id="somMotor" src="accFordMustang.mp3"></audio>
-
     <script src="js/index.js"></script>
 </body>
 </html>
